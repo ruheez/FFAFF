@@ -9,10 +9,12 @@ DEBUG = True  # set to True to enable useful console output
 #ROOT_URLS = ["https:///digg.com/"]
 
 ROOT_URLS = [
-"https://techbeastexplorer.blogspot.com/",
-"https://techbeastexplorer.blogspot.com/2020/04/canon-latest-news.html"
-
-]
+	"https://getcash9987.blogspot.com/2023/05/blog-post_74.html",
+	"https://getcash9987.blogspot.com/2023/05/blog-post_9.html",
+	"https://getcash9987.blogspot.com/2023/05/lil-chey.html",
+	"https://getcash9987.blogspot.com/2023/05/blog-post_8.html",
+	"https://getcash9987.blogspot.com/2023/05/thai-to-image-with-runwayml-ai-async.html"
+	]
 # items can be a URL "https://t.co" or simple string to check for "amazon"
 blacklist = [
 	 
