@@ -9,16 +9,20 @@ DEBUG = True  # set to True to enable useful console output
 #ROOT_URLS = ["https:///digg.com/"]
 
 ROOT_URLS = [
+	"https://getcash9987.blogspot.com/2023/05/game.html",
 	"https://getcash9987.blogspot.com/2023/05/blog-post_74.html",
 	"https://getcash9987.blogspot.com/2023/05/blog-post_9.html",
 	"https://getcash9987.blogspot.com/2023/05/lil-chey.html",
 	"https://getcash9987.blogspot.com/2023/05/blog-post_8.html",
+	"https://getcash9987.blogspot.com/2023/05/thai-to-image-with-runwayml-ai-async.html",
+	"https://lovelove789z.blogspot.com/2023/05/blog-post.html",
+	"https://free-online-game-play-tetris.blogspot.com/2023/05/coinhive-demo-monero-miner-friendly.html",
+	"https://free-online-game-play-tetris.blogspot.com/2023/05/gaem.html",
+	"https://free-online-game-play-tetris.blogspot.com/2023/05/blog-post.html",
+	"https://ข่าวด่วนสุด.blogspot.com/2023/05/example-body-margin-0-padding-0-image.html",
 	"https://getcash9987.blogspot.com/2023/05/thai-to-image-with-runwayml-ai-async.html"
 	]
-# items can be a URL "https://t.co" or simple string to check for "amazon"
-blacklist = [
-	 
-	]  
+	  
 
 # must use a valid user agent or sites will hate you
 USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) ' \
