@@ -19,13 +19,47 @@
 <body>
     <h1>Web Traffic Generator</h1>
 
+    <form method="post">
+        <label for="url">Website URL:</label>
+        <input type="text" id="url" name="url">
+        <input type="submit" value="Generate Traffic">
+    </form>
+
+    <hr>
+
+    <h2>Run Additional Python Scripts</h2>
+
+    <form method="post">
+        <label for="script">Python Script:</label>
+        <textarea id="script" name="script"></textarea>
+        <input type="submit" value="Run Script">
+    </form>
+
+    <hr>
+
+    <h2>Output</h2>
+
     <pre>
         <?php
-        // Execute the Python script
-        $output = shell_exec('python gen.py');
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            if (isset($_POST['url'])) {
+                // Generate Traffic - Code to handle the URL input and run the Python script
+                $url = $_POST['url'];
+                // Your code to process the URL and run the Python script
 
-        // Display the output
-        echo $output;
+                // Example: Execute the Python script with the URL as an argument
+                $output = shell_exec('sudo python3 gen.py ' . escapeshellarg($url) . ' 2>&1');
+                echo $output;
+            } elseif (isset($_POST['script'])) {
+                // Run Additional Python Scripts - Code to handle the Python script input and execute it
+                $script = $_POST['script'];
+                // Your code to process the Python script and execute it
+
+                // Example: Execute the Python script
+                $output = shell_exec('sudo python3 -c ' . escapeshellarg($script) . ' 2>&1');
+                echo $output;
+            }
+        }
         ?>
     </pre>
 </body>
