@@ -29,7 +29,8 @@ except ImportError:
         # be sure to comment out the list below it.
         #ROOT_URLS = ["https://digg.com/"]
         ROOT_URLS = [
-            "https://www.reddit.com"
+            "dino-th.pages.dev",
+            "aternosafk.gtheripper.repl.co"
         ]
 
         # items can be a URL "https://t.co" or simple string to check for "amazon"
