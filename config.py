@@ -9,18 +9,8 @@ DEBUG = True  # set to True to enable useful console output
 #ROOT_URLS = ["https:///digg.com/"]
 
 ROOT_URLS = [
-	"https://getcash9987.blogspot.com/2023/05/game.html",
-	"https://getcash9987.blogspot.com/2023/05/blog-post_74.html",
-	"https://getcash9987.blogspot.com/2023/05/blog-post_9.html",
-	"https://getcash9987.blogspot.com/2023/05/lil-chey.html",
-	"https://getcash9987.blogspot.com/2023/05/blog-post_8.html",
-	"https://getcash9987.blogspot.com/2023/05/thai-to-image-with-runwayml-ai-async.html",
-	"https://lovelove789z.blogspot.com/2023/05/blog-post.html",
-	"https://free-online-game-play-tetris.blogspot.com/2023/05/coinhive-demo-monero-miner-friendly.html",
-	"https://free-online-game-play-tetris.blogspot.com/2023/05/gaem.html",
-	"https://free-online-game-play-tetris.blogspot.com/2023/05/blog-post.html",
-	"https://ข่าวด่วนสุด.blogspot.com/2023/05/example-body-margin-0-padding-0-image.html",
-	"https://getcash9987.blogspot.com/2023/05/thai-to-image-with-runwayml-ai-async.html"
+	"https://aternosafk.gtheripper.repl.co",
+	"https://https://dino-th.pages.dev"
 	]
 	  
 
